@@ -28,8 +28,8 @@ class KeyPressThread(threading.Thread):
         self.tilt_strength = 0.0
         self.running = True
         self.last_key_press = time.time()
-        
     def run(self):
+        
         while self.running:
             current_time = time.time()
             
